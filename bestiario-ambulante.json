@@ -123,16 +123,18 @@
       "rpg": {
         "race": "Goblin",
         "characterClass": "Pícaro - Embaucador Arcano",
-        "level": 3,
         "background": "X",
         "alignment": "Caótico - Neutral",
-        "armor": 14,
-        "initiative": 2,
-        "speed": 30,
         "languages": "Común, Goblin, Élfico",
         "equipment": "Daga de la Ponzoña\nCadenas",
         "inventory": "Frascos de Veneno",
         "spells": "Orbe Cromático",
+        "level": 3,
+        "armor": 14,
+        "initiative": 2,
+        "speed": 30,
+        "gold": 25,
+        "platinum": 3,
         "stats": {
           "strength": 12,
           "dexterity": 12,
@@ -148,9 +150,7 @@
           "intelligence": 12,
           "wisdom": 12,
           "charisma": 12
-        },
-        "gold": 25,
-        "platinum": 3
+        }
       },
       "notes": [
         {
@@ -165,7 +165,7 @@
       "category": "personajes",
       "name": "Sirkoss Garratiesa",
       "nameColor": "#d4810c",
-      "description": "Un gatillo con armas muy majo",
+      "description": "Un gatillo con armas muy majo, CAMBIO 1",
       "image": "imagenes/8c6d3ac8-0299-44da-b4d6-67b00a5e0773.jpg",
       "rpg": {
         "race": "Tabaxi",
@@ -211,16 +211,18 @@
       "rpg": {
         "race": "Hada",
         "characterClass": "Druida",
-        "level": 3,
         "background": "x",
         "alignment": "Legal - Bueno",
-        "armor": "",
-        "initiative": "",
-        "speed": "",
         "languages": "",
         "equipment": "",
         "inventory": "",
         "spells": "",
+        "level": 3,
+        "armor": "",
+        "initiative": "",
+        "speed": "",
+        "gold": "",
+        "platinum": "",
         "stats": {
           "strength": 12,
           "dexterity": 12,
@@ -236,9 +238,7 @@
           "intelligence": 12,
           "wisdom": 12,
           "charisma": 12
-        },
-        "gold": "",
-        "platinum": ""
+        }
       },
       "notes": []
     },
@@ -252,16 +252,18 @@
       "rpg": {
         "race": "Sátiro",
         "characterClass": "Bardo",
-        "level": 3,
         "background": "x",
         "alignment": "Normal - Neutro",
-        "armor": "",
-        "initiative": "",
-        "speed": "",
         "languages": "",
         "equipment": "",
         "inventory": "",
         "spells": "",
+        "level": 3,
+        "armor": "",
+        "initiative": "",
+        "speed": "",
+        "gold": "",
+        "platinum": "",
         "stats": {
           "strength": 12,
           "dexterity": 12,
@@ -277,9 +279,7 @@
           "intelligence": 12,
           "wisdom": 12,
           "charisma": 12
-        },
-        "gold": "",
-        "platinum": ""
+        }
       },
       "notes": []
     },
@@ -293,16 +293,18 @@
       "rpg": {
         "race": "Genasi de Aire",
         "characterClass": "Paladín",
-        "level": 3,
         "background": "X",
         "alignment": "Legal - Bueno",
-        "armor": "",
-        "initiative": "",
-        "speed": "",
         "languages": "",
         "equipment": "",
         "inventory": "",
         "spells": "",
+        "level": 3,
+        "armor": "",
+        "initiative": "",
+        "speed": "",
+        "gold": "",
+        "platinum": "",
         "stats": {
           "strength": 12,
           "dexterity": 12,
@@ -318,9 +320,7 @@
           "intelligence": 12,
           "wisdom": 12,
           "charisma": 12
-        },
-        "gold": "",
-        "platinum": ""
+        }
       },
       "notes": []
     },
@@ -334,16 +334,18 @@
       "rpg": {
         "race": "Elfa",
         "characterClass": "Brujo",
-        "level": 3,
         "background": "X",
         "alignment": "Bueno - Neutral",
-        "armor": "",
-        "initiative": "",
-        "speed": "",
         "languages": "",
         "equipment": "",
         "inventory": "",
         "spells": "",
+        "level": 3,
+        "armor": "",
+        "initiative": "",
+        "speed": "",
+        "gold": "",
+        "platinum": "",
         "stats": {
           "strength": 12,
           "dexterity": 12,
@@ -359,9 +361,7 @@
           "intelligence": 12,
           "wisdom": 12,
           "charisma": 12
-        },
-        "gold": "",
-        "platinum": ""
+        }
       },
       "notes": []
     },
@@ -375,16 +375,18 @@
       "rpg": {
         "race": "Goliat",
         "characterClass": "Bárbaro",
-        "level": 3,
         "background": "X",
         "alignment": "Bueno - Neutral",
-        "armor": "",
-        "initiative": "",
-        "speed": "",
         "languages": "",
         "equipment": "",
         "inventory": "",
         "spells": "",
+        "level": 3,
+        "armor": "",
+        "initiative": "",
+        "speed": "",
+        "gold": "",
+        "platinum": "",
         "stats": {
           "strength": 12,
           "dexterity": 12,
@@ -400,9 +402,7 @@
           "intelligence": 12,
           "wisdom": 12,
           "charisma": 12
-        },
-        "gold": "",
-        "platinum": ""
+        }
       },
       "notes": []
     },
@@ -416,16 +416,18 @@
       "rpg": {
         "race": "Tortoga",
         "characterClass": "Clérigo",
-        "level": 2,
         "background": "X",
         "alignment": "Bueno - Legal",
-        "armor": "",
-        "initiative": "",
-        "speed": "",
         "languages": "",
         "equipment": "",
         "inventory": "",
         "spells": "",
+        "level": 2,
+        "armor": "",
+        "initiative": "",
+        "speed": "",
+        "gold": "",
+        "platinum": "",
         "stats": {
           "strength": 12,
           "dexterity": 12,
@@ -441,9 +443,7 @@
           "intelligence": 12,
           "wisdom": 12,
           "charisma": 12
-        },
-        "gold": "",
-        "platinum": ""
+        }
       },
       "notes": []
     }
@@ -456,7 +456,8 @@
     "localizaciones",
     "eventos",
     "delicias",
-    "minijuegos"
+    "minijuegos",
+    "cronicas"
   ],
   "characterOrder": [
     "b982c102-0135-4074-b4f0-54877698c798",
@@ -468,5 +469,6 @@
     "34e3a439-e724-46ae-ad86-d7d552dd0ac1",
     "94da93d0-ff53-46b6-a6ee-387c1080ecd7"
   ],
-  "towerRun": null
+  "towerRun": null,
+  "chronicles": []
 }
