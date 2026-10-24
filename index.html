@@ -20,6 +20,7 @@
       --wine: #722f2a;
       --rail: #211b16;
       --rail-light: #30261e;
+      --home-banner-outline: #87ceeb;
       --muted: #81715d;
       --line: rgba(66, 48, 31, .22);
       --serif: "IM Fell English", Georgia, serif;
@@ -59,7 +60,7 @@
         var(--app-background) center / 100% 100% no-repeat;
       box-shadow: inset 0 0 0 7px rgba(18, 14, 10, .14);
     }
-    .app[data-view="home"] { --app-background: url("https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1800&q=85"); }
+    .app[data-view="home"] { --app-background: url(""); }
     .app[data-view="personajes"] { --app-background: url("https://static0.polygonimages.com/wordpress/wp-content/uploads/2024/09/01-005.adventurers-bartering.png?w=1600&h=900&fit=crop"); }
     .app[data-view="npcs"] { --app-background: url("https://cdna.artstation.com/p/assets/images/images/053/397/312/large/elena-1.jpg?1662105541"); }
     .app[data-view="enemigos"] { --app-background: url("https://assetsio.gnwcdn.com/tashas-cauldron-of-everything-dnd-rpg-artwork-7.jpg?width=690&quality=85&format=jpg&dpr=3&auto=webp"); }
@@ -67,7 +68,7 @@
     .app[data-view="eventos"] { --app-background: url("https://cdnb.artstation.com/p/assets/images/images/049/290/825/large/bailey-4kpng.jpg?1660906346"); }
     .app[data-view="delicias"] { --app-background: url("https://i.pinimg.com/1200x/e5/e4/db/e5e4dba4473b7484e0a500f0fed50f68.jpg"); }
     .app[data-view="tierlists"] { --app-background: url("https://i.blogs.es/ffebd3/quintessential-quintuplets-movie/1366_2000.jpeg"); }
-    .app[data-view="cronicas"] { --app-background: url("D:\\BestiarioAmbulante\\imagenes\\Library.png"); }
+    .app[data-view="cronicas"] { --app-background: url("imagenes/Library.png"); }
     .app[data-view="torre"] { --app-background: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8449490e-eb15-4e41-a595-3469e4f7bdd2/dezmo5v-590ee841-b813-423c-8daa-c8362247fb6e.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi84NDQ5NDkwZS1lYjE1LTRlNDEtYTU5NS0zNDY5ZTRmN2JkZDIvZGV6bW81di01OTBlZTg0MS1iODEzLTQyM2MtOGRhYS1jODM2MjI0N2ZiNmUuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.hhjXudiV5Or8Dy0Dm5cqxT_eb-Wb_SRm2tG0txdoc5U");}
     .rail {
       position: fixed;
@@ -81,9 +82,9 @@
       padding: 22px 10px;
       color: var(--paper);
       background:
-        radial-gradient(ellipse at top, rgba(177, 138, 78, .14), transparent 57%),
-        var(--rail);
-      border-right: 1px solid rgba(213, 183, 121, .27);
+        radial-gradient(ellipse at top, rgba(77, 148, 176, .14), transparent 57%),
+        rgba(12, 17, 21, .78);
+      border-right: 1px solid rgba(135, 206, 235, .3);
       box-shadow: 5px 0 24px rgba(38, 29, 23, .13);
       transition: transform .24s ease;
     }
@@ -97,14 +98,14 @@
       height: 31px;
       place-items: center;
       padding: 0;
-      color: rgba(213, 183, 121, .62);
+      color: var(--home-banner-outline);
       cursor: pointer;
-      background: rgba(33, 27, 22, .68);
-      border: 1px solid rgba(213, 183, 121, .16);
+      background: rgba(12, 17, 21, .82);
+      border: 1px solid rgba(135, 206, 235, .3);
       border-radius: 2px;
       transition: left .24s ease, color .18s ease, background .18s ease;
     }
-    .nav-toggle:hover, .nav-toggle:focus-visible { color: var(--gold-light); background: var(--rail-light); }
+    .nav-toggle:hover, .nav-toggle:focus-visible { color: #b5e8f8; background: rgba(12, 17, 21, .96); }
     .nav-toggle svg { width: 15px; height: 15px; transition: transform .24s ease; }
     .app.nav-collapsed .rail { transform: translateX(-100%); }
     .app.nav-collapsed .nav-toggle { left: 0; }
@@ -115,8 +116,8 @@
       height: 50px;
       place-items: center;
       margin-bottom: 17px;
-      color: var(--gold-light);
-      border: 1px solid rgba(213, 183, 121, .6);
+      color: var(--home-banner-outline);
+      border: 1px solid rgba(135, 206, 235, .6);
       border-radius: 50%;
     }
     .brand-mark svg { width: 29px; height: 29px; }
@@ -126,7 +127,7 @@
       height: 56px;
       place-items: center;
       padding: 0;
-      color: #c4b49a;
+      color: var(--home-banner-outline);
       cursor: pointer;
       background: transparent;
       border: 1px solid transparent;
@@ -134,21 +135,46 @@
       transition: color .18s ease, background .18s ease, border-color .18s ease;
     }
     .nav-button:hover, .nav-button.active {
-      color: var(--gold-light);
-      background: rgba(213, 183, 121, .1);
-      border-color: rgba(213, 183, 121, .36);
+      color: #b5e8f8;
+      background: rgba(135, 206, 235, .1);
+      border-color: rgba(135, 206, 235, .36);
     }
     .nav-button svg { width: 25px; height: 25px; }
     .nav-button[aria-label="Portada"] { margin-bottom: 9px; }
     .rail-spacer { flex: 1; }
     .rail-caption {
-      color: #8f7c61;
+      color: rgba(135, 206, 235, .62);
       font-family: var(--display);
       font-size: 9px;
       letter-spacing: .15em;
       writing-mode: vertical-rl;
       transform: rotate(180deg);
     }
+    body.read-only #options-button,
+    body.read-only #add-entry,
+    body.read-only [data-edit],
+    body.read-only [data-delete],
+    body.read-only #add-tierlist,
+    body.read-only [data-edit-tierlist],
+    body.read-only [data-delete-tierlist],
+    body.read-only #edit-active-tierlist,
+    body.read-only [data-chronicle-action="new-arc"],
+    body.read-only [data-chronicle-action="new-chapter"],
+    body.read-only [data-chronicle-action="edit-arc"],
+    body.read-only [data-chronicle-action="delete-arc"],
+    body.read-only #edit-ingredient,
+    body.read-only #delete-ingredient,
+    body.read-only #edit-open-chronicle-chapter,
+    body.read-only #delete-open-chronicle-chapter,
+    body.read-only #options-dialog,
+    body.read-only #tierlist-editor-dialog,
+    body.read-only #entry-dialog,
+    body.read-only #chronicle-arc-dialog,
+    body.read-only #chronicle-chapter-dialog {
+      display: none !important;
+    }
+    body.read-only .chronicle-arc-controls { display: none; }
+    body.read-only .tierlist-item { cursor: default; }
 
     main { min-height: 100vh; margin-left: 82px; transition: margin-left .24s ease; }
     .app.nav-collapsed main { margin-left: 0; }
@@ -814,10 +840,12 @@
     }
     .home-banners {
       display: flex;
+      gap: 4px;
       width: 100%;
       height: 100vh;
       min-height: 420px;
       overflow: hidden;
+      background-color: var(--home-banner-outline);
     }
     .home-banner {
       position: relative;
@@ -835,8 +863,8 @@
         linear-gradient(180deg, rgba(10, 8, 5, .36), rgba(10, 8, 5, .62)),
         var(--banner-closed-image, none) center / cover no-repeat,
         #30251b;
-      border: 1px solid rgba(213, 183, 121, .42);
-      box-shadow: inset 0 0 0 3px rgba(255, 249, 229, .035), 0 5px 14px rgba(0, 0, 0, .22);
+      border: 1px solid var(--home-banner-outline);
+      box-shadow: inset 0 0 0 3px rgba(135, 206, 235, .12), 0 5px 14px rgba(0, 0, 0, .22);
       text-align: center;
       transition: flex-grow .38s ease, box-shadow .25s ease, border-color .25s ease;
       isolation: isolate;
@@ -906,8 +934,8 @@
     }
     .home-banner:hover, .home-banner:focus-visible {
       flex-grow: 6;
-      border-color: rgba(222, 193, 138, .8);
-      box-shadow: inset 0 0 0 3px rgba(255, 249, 229, .08), 0 12px 28px rgba(0, 0, 0, .38);
+      border-color: var(--home-banner-outline);
+      box-shadow: inset 0 0 0 3px rgba(135, 206, 235, .28), 0 12px 28px rgba(0, 0, 0, .38);
       outline: none;
     }
     .home-banner:hover::before, .home-banner:focus-visible::before { opacity: 1; }
@@ -1365,6 +1393,9 @@
   </dialog>
 
   <script>
+    const readOnlyMode = new URLSearchParams(window.location.search).get("publico") === "1";
+    document.body.classList.toggle("read-only", readOnlyMode);
+
     const categories = [
       { id: "personajes", name: "Personajes", singular: "Personaje", description: "Héroes, aliados y compañeros de viaje.", icon: '<path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z"/><path d="M4 21a8 8 0 0 1 16 0"/><path d="m18 5 1 2 2 .4-1.5 1.5.3 2.1L18 10l-1.8 1 .3-2.1L15 7.4l2-.4 1-2Z"/>' },
       { id: "npcs", name: "NPCs importantes", singular: "NPC", description: "Caras conocidas y figuras clave.", icon: '<path d="M12 3v3m0 12v3M3 12h3m12 0h3"/><circle cx="12" cy="12" r="7"/><path d="M9 10h.01M15 10h.01M9 14c1.7 1.5 4.3 1.5 6 0"/>' },
@@ -1660,6 +1691,7 @@
     }
 
     function saveChronicles() {
+      if (readOnlyMode) return false;
       try {
         localStorage.setItem(chroniclesStorageKey, JSON.stringify(chronicles));
         return true;
@@ -1696,6 +1728,7 @@
     }
 
     function saveSectionOrder() {
+      if (readOnlyMode) return false;
       try {
         localStorage.setItem(sectionOrderStorageKey, JSON.stringify(sectionOrder));
         return true;
@@ -1724,6 +1757,7 @@
     }
 
     function saveCharacterOrder() {
+      if (readOnlyMode) return false;
       try {
         characterOrder = normalizeCharacterOrder(characterOrder);
         localStorage.setItem(characterOrderStorageKey, JSON.stringify(characterOrder));
@@ -1819,6 +1853,7 @@
     }
 
     function saveTierLists() {
+      if (readOnlyMode) return false;
       try {
         localStorage.setItem(tierListsStorageKey, JSON.stringify(tierLists));
         return true;
@@ -1872,6 +1907,7 @@
     }
 
     function saveEntries() {
+      if (readOnlyMode) return false;
       try {
         localStorage.setItem(storageKey, JSON.stringify(entries));
         return true;
@@ -2030,6 +2066,24 @@
         return item;
       });
       return { entries: validatedEntries, chronicles: normalizedChronicles };
+    }
+
+    async function loadPublishedArchive() {
+      const response = await fetch(archiveFileName);
+      if (!response.ok) {
+        throw new Error(`No se pudo cargar ${archiveFileName} (${response.status}).`);
+      }
+      const archive = await response.json();
+      const validatedArchive = validateArchive(archive);
+      entries = validatedArchive.entries.map(item => ({ ...item, image: item.image || "" }));
+      chronicles = validatedArchive.chronicles;
+      tierLists = normalizeTierLists(archive.tierLists || []);
+      sectionOrder = archive.sectionOrder ? normalizeSectionOrder(archive.sectionOrder) : getDefaultSectionOrder();
+      characterOrder = normalizeCharacterOrder(
+        archive.characterOrder,
+        entries.filter(item => item.category === "personajes")
+      );
+      towerRun = null;
     }
 
     async function readFolderArchive(handle) {
@@ -2239,6 +2293,7 @@
     }
 
     async function connectFolder() {
+      if (readOnlyMode) return;
       try {
         if (folderNeedsPermission && folderHandle) {
           await activateFolder(folderHandle, false);
@@ -2383,7 +2438,7 @@
                 </div>
               </div>
             </details>`).join("")}</div>`
-            : `<div class="empty-state"><h2>La campaña aún no tiene crónicas</h2><p>Crea un arco para empezar a contar su historia.</p></div>`}
+            : `<div class="empty-state"><h2>La campaña aún no tiene crónicas</h2><p>${readOnlyMode ? "No hay crónicas publicadas todavía." : "Crea un arco para empezar a contar su historia."}</p></div>`}
         </section>`;
       main.querySelectorAll("[data-chronicle-action]").forEach(button => {
         button.addEventListener("click", () => handleChronicleAction(button));
@@ -2391,6 +2446,7 @@
     }
 
     function handleChronicleAction(button) {
+      if (readOnlyMode && button.dataset.chronicleAction !== "open-chapter") return;
       const { chronicleAction: action, arcId, chapterId } = button.dataset;
       if (action === "new-arc") {
         openChronicleArcDialog();
@@ -2434,6 +2490,7 @@
     }
 
     function commitChronicles(nextChronicles) {
+      if (readOnlyMode) return false;
       const previousChronicles = chronicles;
       chronicles = normalizeChronicles(nextChronicles);
       if (!saveChronicles()) {
@@ -2490,6 +2547,7 @@
     });
 
     function openChronicleArcDialog(arcId = null) {
+      if (readOnlyMode) return;
       editingChronicleArcId = arcId;
       const arc = chronicles.find(item => item.id === arcId);
       document.querySelector("#chronicle-arc-dialog-title").textContent = arc ? "Editar arco" : "Nuevo arco";
@@ -2501,6 +2559,7 @@
     }
 
     function openChronicleChapterDialog(arcId, chapterId = null) {
+      if (readOnlyMode) return;
       const arc = chronicles.find(item => item.id === arcId);
       if (!arc) return;
       editingChronicleChapter = { arcId, chapterId };
@@ -2633,7 +2692,7 @@
           commandMarkup = `<p class="tower-title">Has llegado a la Torre del Mago Malvado.</p><p>Una escalera interminable, monstruos con problemas de autoestima y un mago que no ha recibido visitas desde hace siglos. Elige a tu aventurero.</p>
             ${eligibleCharacters.length
               ? `<div class="tower-roster">${eligibleCharacters.map(item => `<button class="button subtle" type="button" data-tower-action="start" data-tower-id="${escapeAttribute(item.id)}">${escapeHtml(item.name)} <small>(${item.category === "personajes" ? "Personaje" : "NPC"})</small></button>`).join("")}</div>`
-              : '<p>No hay personajes ni NPCs importantes registrados. Añade uno antes de entrar en la torre.</p><div class="tower-commands"><button class="button subtle" type="button" data-view="personajes">Ir a Personajes</button><button class="button subtle" type="button" data-view="npcs">Ir a NPCs importantes</button></div>'}`;
+              : `<p>No hay personajes ni NPCs importantes registrados. ${readOnlyMode ? "No hay ninguno publicado para esta aventura." : "Añade uno antes de entrar en la torre."}</p><div class="tower-commands"><button class="button subtle" type="button" data-view="personajes">Ir a Personajes</button><button class="button subtle" type="button" data-view="npcs">Ir a NPCs importantes</button></div>`}`;
         }
       } else {
         commandMarkup = renderTowerCommands(towerRun);
@@ -3227,7 +3286,7 @@
             <div>
               <div class="eyebrow">Clasificación de campaña</div>
               <h1 id="section-title">TierLists</h1>
-              <p>Crea niveles personalizados y arrastra las fichas para ordenarlas.</p>
+              <p>${readOnlyMode ? "Clasificaciones de la campaña." : "Crea niveles personalizados y arrastra las fichas para ordenarlas."}</p>
             </div>
           </header>
           <div class="tierlist-toolbar"><button class="button" id="add-tierlist" type="button">${svg(icons.plus)} Crear TierList</button></div>
@@ -3242,7 +3301,7 @@
                     <button class="button subtle" type="button" data-delete-tierlist="${escapeAttribute(item.id)}">Eliminar</button>
                   </div>
                 </article>`).join("")
-              : '<div class="empty-state"><h2>Aún no hay TierLists</h2><p>Crea una para empezar a clasificar las fichas de campaña.</p></div>'}
+              : `<div class="empty-state"><h2>Aún no hay TierLists</h2><p>${readOnlyMode ? "No hay clasificaciones publicadas todavía." : "Crea una para empezar a clasificar las fichas de campaña."}</p></div>`}
           </div>
         </section>`;
       main.querySelector("#add-tierlist").addEventListener("click", () => openTierListEditor());
@@ -3278,7 +3337,7 @@
         .filter(id => (tierList.placements[id] ?? null) === rankIndex)
         .map(id => entries.find(item => item.id === id))
         .filter(Boolean)
-        .map(entry => `<button class="tierlist-item" type="button" draggable="true" data-tierlist-entry="${escapeAttribute(entry.id)}" title="${escapeAttribute(entry.name)}" aria-label="${escapeAttribute(entry.name)}">
+        .map(entry => `<button class="tierlist-item" type="button" draggable="${!readOnlyMode}" data-tierlist-entry="${escapeAttribute(entry.id)}" title="${escapeAttribute(entry.name)}" aria-label="${escapeAttribute(entry.name)}">
           ${entry.image
             ? `<img src="${escapeAttribute(entry.image)}" alt="">`
             : svg(categories.find(category => category.id === entry.category)?.icon || icons.quill)}
@@ -3316,6 +3375,7 @@
         </section>`;
       main.querySelector("#back-tierlists").addEventListener("click", renderTierListCollection);
       main.querySelector("#edit-active-tierlist").addEventListener("click", () => openTierListEditor(id));
+      if (readOnlyMode) return;
       main.querySelectorAll(".tierlist-dropzone, .tierlist-unranked").forEach(zone => {
         zone.addEventListener("dragover", event => {
           event.preventDefault();
@@ -3341,6 +3401,7 @@
     }
 
     function moveTierListEntry(tierListId, entryId, rankIndex) {
+      if (readOnlyMode) return;
       const previousLists = tierLists;
       tierLists = tierLists.map(item => {
         if (item.id !== tierListId || !item.entryIds.includes(entryId)) return item;
@@ -3360,6 +3421,7 @@
     }
 
     function openTierListEditor(id = null) {
+      if (readOnlyMode) return;
       const existing = id ? tierLists.find(item => item.id === id) : null;
       editingTierListId = existing ? existing.id : null;
       tierListPlacementsDraft = existing ? { ...existing.placements } : {};
@@ -3396,6 +3458,7 @@
     }
 
     function deleteTierList(id) {
+      if (readOnlyMode) return;
       const tierList = tierLists.find(item => item.id === id);
       if (!tierList || !window.confirm(`¿Eliminar la TierList «${tierList.title}»? Esta acción no se puede deshacer.`)) return;
       const previousLists = tierLists;
@@ -3509,8 +3572,8 @@
             ${orderedEntries.map(entry => renderEntry(entry, category, entriesById, addedOrder.get(entry.id))).join("")}
             <div class="empty-state" id="entries-empty" ${orderedEntries.length ? "hidden" : ""}>
               ${svg(icons.empty)}
-              <h2>${query ? "No hay coincidencias" : categoryId === "delicias" ? `Todavía no hay ${cuisineView === "plato" ? "platos" : "ingredientes"}` : "Este capítulo está por escribirse"}</h2>
-              <p>${query ? "Prueba con otra búsqueda." : categoryId === "delicias" ? `Añade el primer ${cuisineView === "plato" ? "plato" : "ingrediente"} de Lifruania.` : "Añade la primera ficha y empieza a construir vuestro archivo."}</p>
+              <h2>${query ? "No hay coincidencias" : readOnlyMode ? "No hay fichas publicadas en esta sección" : categoryId === "delicias" ? `Todavía no hay ${cuisineView === "plato" ? "platos" : "ingredientes"}` : "Este capítulo está por escribirse"}</h2>
+              <p>${query ? "Prueba con otra búsqueda." : readOnlyMode ? "Prueba a consultar otra sección." : categoryId === "delicias" ? `Añade el primer ${cuisineView === "plato" ? "plato" : "ingrediente"} de Lifruania.` : "Añade la primera ficha y empieza a construir vuestro archivo."}</p>
             </div>
           </div>
         </section>`;
@@ -3619,14 +3682,22 @@
       if (!hasVisibleEntries) {
         const hasQuery = Boolean(query);
         const isCuisine = main.querySelector(".section-page").dataset.category === "delicias";
-        emptyState.querySelector("h2").textContent = hasQuery ? "No hay coincidencias" : "Este capítulo está por escribirse";
+        emptyState.querySelector("h2").textContent = hasQuery
+          ? "No hay coincidencias"
+          : readOnlyMode
+            ? "No hay fichas publicadas en esta sección"
+            : "Este capítulo está por escribirse";
         emptyState.querySelector("p").textContent = hasQuery
           ? "Prueba con otra búsqueda."
-          : isCuisine
-            ? `Añade el primer ${cuisineView === "plato" ? "plato" : "ingrediente"} de Lifruania.`
-            : "Añade la primera ficha y empieza a construir vuestro archivo.";
+          : readOnlyMode
+            ? "Prueba a consultar otra sección."
+            : isCuisine
+              ? `Añade el primer ${cuisineView === "plato" ? "plato" : "ingrediente"} de Lifruania.`
+              : "Añade la primera ficha y empieza a construir vuestro archivo.";
         if (!hasQuery && isCuisine) {
-          emptyState.querySelector("h2").textContent = `Todavía no hay ${cuisineView === "plato" ? "platos" : "ingredientes"}`;
+          emptyState.querySelector("h2").textContent = readOnlyMode
+            ? `No hay ${cuisineView === "plato" ? "platos" : "ingredientes"} publicados`
+            : `Todavía no hay ${cuisineView === "plato" ? "platos" : "ingredientes"}`;
         }
       }
     }
@@ -3641,7 +3712,7 @@
         : svg(icons.quill);
       const description = entry.description
         ? `<p class="entry-description">${escapeHtml(entry.description)}</p>`
-        : `<p class="entry-description empty">Todavía no hay una descripción. Pulsa «Editar» para añadirla.</p>`;
+        : `<p class="entry-description empty">${readOnlyMode ? "Todavía no hay una descripción." : "Todavía no hay una descripción. Pulsa «Editar» para añadirla."}</p>`;
       const participants = category.id === "eventos" ? getEventParticipants(entry, entriesById) : [];
       const participantMarkup = category.id === "eventos"
         ? `<p class="entry-participants"><strong>Participantes:</strong> ${participants.length
@@ -3752,7 +3823,7 @@
       const notes = normalizeCharacterNotes(entry.notes);
       const noteButtons = notes.length
         ? notes.map(note => `<button class="button subtle" type="button" data-read-character-note="${escapeAttribute(note.id)}" data-character-id="${escapeAttribute(entry.id)}">${escapeHtml(note.title)}</button>`).join("")
-        : '<p class="character-notes-empty">Todavía no hay entradas. Puedes añadirlas al editar el personaje.</p>';
+        : `<p class="character-notes-empty">${readOnlyMode ? "Todavía no hay entradas." : "Todavía no hay entradas. Puedes añadirlas al editar el personaje."}</p>`;
       return `<div class="character-notes-menu" id="character-notes-${escapeAttribute(entry.id)}" hidden>${noteButtons}</div>`;
     }
 
@@ -3932,6 +4003,7 @@
     }
 
     function openEntryDialog(categoryId, id = null, initialCuisineType = "plato") {
+      if (readOnlyMode) return;
       const existing = id ? entries.find(item => item.id === id) : null;
       editingId = existing ? existing.id : null;
       const cuisine = categoryId === "delicias" && existing ? normalizeCuisineDetails(existing) : null;
@@ -4294,6 +4366,7 @@
     });
 
     function deleteEntry(id) {
+      if (readOnlyMode) return;
       const entry = entries.find(item => item.id === id);
       if (!entry || !window.confirm(`¿Eliminar la ficha «${entry.name}»? Esta acción no se puede deshacer.`)) return;
       const previousEntries = entries;
@@ -4341,10 +4414,24 @@
       navToggle.setAttribute("aria-label", expanded ? "Mostrar menú" : "Ocultar menú");
       navToggle.title = expanded ? "Mostrar menú" : "Ocultar menú";
     });
-    renderNavigation();
-    bindStorageControls();
-    render();
-    restoreFolder();
+    if (readOnlyMode) {
+      loadPublishedArchive().then(() => {
+        renderNavigation();
+        render();
+      }).catch(error => {
+        console.error("No se pudo cargar la versión pública del Bestiario.", error);
+        main.innerHTML = `
+          <section class="page section-page">
+            <h1>No se pudo cargar el archivo</h1>
+            <p>${escapeHtml(error.message)} Comprueba que el archivo JSON esté publicado junto a la web.</p>
+          </section>`;
+      });
+    } else {
+      renderNavigation();
+      bindStorageControls();
+      render();
+      restoreFolder();
+    }
   </script>
 </body>
 </html>
