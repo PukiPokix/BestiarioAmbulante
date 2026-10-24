@@ -1,0 +1,472 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "id": "2e8d8ffc-0ee5-498f-9975-44c50d888e01",
+      "category": "enemigos",
+      "name": "Ogro",
+      "description": "Este gigante corto de entendederas se asemeja a un humano obeso de grandes dientes. Lleva a la espalda una enorme jabalina y blande una clava que bien podría ser un árbol pequeño.",
+      "image": "imagenes/2e8d8ffc-0ee5-498f-9975-44c50d888e01.jpg"
+    },
+    {
+      "id": "5677fe51-1bb7-4e3d-9840-7536fc595a21",
+      "category": "enemigos",
+      "name": "Goblin",
+      "description": "Este pequeño y detestable humanoide de piel verde suele acompañar a otros trasgoides en combate, aunque su moral es baja y suelen echarse a correr cuando la situación se complica. Aunque es un combatiente mediocre, su gran número compensa esa deficiencia.",
+      "image": null
+    },
+    {
+      "id": "1619fd15-9332-4f63-bc4b-366e764f7fa8",
+      "category": "enemigos",
+      "name": "MINOTAURO ESQUELETO",
+      "description": "Un minotauro muerto hace mucho tiempo y del que solo queda su esqueleto se levanta entre polvo y ceniza, portando en sus manos una enorme hacha que conserva su filo. Sus enormes cuernos brillan como la más afilada y reciente lanza cuando carga hacia el enemigo.",
+      "image": null
+    },
+    {
+      "id": "6eb66d47-cbcb-4adf-8e12-284690d6a5aa",
+      "category": "enemigos",
+      "name": "GORGON",
+      "description": "Esta bestia recuerda a un enorme toro dotado de grandes cuernos, pero recubierto de placas hierro que no dejan entrever su piel. La mole del gorgón devasta todo lo que alcanzan sus cuernos en su enérgica carga, aplastando a sus víctimas bajo sus pesadas pezuñas o quebrando los cuerpos de aquellos a quienes petrifica con su aliento.",
+      "image": null
+    },
+    {
+      "id": "a82b4269-7839-4c1a-964a-f238ceb8f482",
+      "category": "enemigos",
+      "name": "ASOLADOR",
+      "description": "Cuando un druida se aparta de la tierra, la tierra se aparta de él. Algunos ex druidas aceptan pacíficamente este cambio; otros buscan restaurar el lazo. Unos pocos, sin embargo, abrazan finalmente su separación de la naturaleza y se convierten en fuerzas de destrucción. Estos pocos, llamados asoladores, dejan su marca por dondequiera que pisan.",
+      "image": null
+    },
+    {
+      "id": "65a08645-b343-4277-9154-b57e34c02c6f",
+      "category": "enemigos",
+      "name": "ENT",
+      "description": "El gigantesco árbol comienza a moverse, rompiendo las rocas bajo sus poderosas manos al mismo tiempo que de su boca emerge una voz profunda y amigable que anima a los suyos a unírsele en su caminar. Como si respondiesen a la llamada, varios cedros se desplazan hasta ponerse a su par, haciendo temblar la tierra.",
+      "image": null
+    },
+    {
+      "id": "7a5cbad4-a33e-4051-8f8d-60342a5661e9",
+      "category": "enemigos",
+      "name": "ESQUELETO",
+      "description": "El roñoso esqueleto de un guerrero de antaño que abandona su tumba animado por la fuerza de la nigromancia, blandiendo las armas que usara en vida y vistiendo una degradada armadura. Ataca sin miedo, abriendo su boca para elevar un mudo grito de guerra.",
+      "image": null
+    },
+    {
+      "id": "d444696f-5909-41e1-8e42-cc161bf532ee",
+      "category": "enemigos",
+      "name": "ZOMBIE",
+      "description": "Un cadáver reciente animado por energías nigrománticas que lo espolean para que ataque a los vivos. Este monstruo es estúpido y lento, aunque increíblemente resistente.",
+      "image": null
+    },
+    {
+      "id": "66cf14f2-2b54-4d0c-a467-47e7565fd9e9",
+      "category": "enemigos",
+      "name": "MIMETO",
+      "description": "A simple vista, el mimeto parece un objeto común, como una silla o un cofre, pero, cuando alguien lo toca, descubre su gran boca y una larga lengua pegajosa, capaz de arrastrar a sus dientes castañeteantes a un hombre adulto. Los mimetos son perversos emboscadores y suelen custodiar viejas guaridas o depredar en lugares abandonados.",
+      "image": null
+    },
+    {
+      "id": "5e9e9442-3441-4662-b1f4-882a02bbf55e",
+      "category": "enemigos",
+      "name": "MANTOSCURO",
+      "description": "Este abominable depredador del mundo subterráneo recuerda a un calamar, pero con tentáculos unidos con membranas que le dan cierta semejanza con una sombrilla. El mantoscuro es temido debido a su método de caza, que consiste en emboscar desde el techo a su presa envuelto en tinieblas, caer sobre su cabeza y ahogarlo hasta matarlo.",
+      "image": null
+    },
+    {
+      "id": "1c932c31-3632-4c2c-95a2-ef8261087b6f",
+      "category": "enemigos",
+      "name": "ARAÑA GIGANTE",
+      "description": "Para atrapar a su presa, la araña gigante teje elaboradas telarañas o dispara tiras de telarañas de su abdomen. Las arañas gigantes se suelen encontrar bajo tierra, pero también construyen sus guaridas en techos o en grietas oscuras y llenas de telarañas. Tales guaridas suelen estar adornadas con capullos de telarañas que contienen a sus víctimas.",
+      "image": null
+    },
+    {
+      "id": "962a1e62-4023-46c6-a9d8-589b9ee2ca03",
+      "category": "enemigos",
+      "name": "AVISPA GIGANTE",
+      "description": "Las Avispas Gigantes son conocidas por ser una amenaza veloz en los combates aéreos y por su letal aguijón venenoso.",
+      "image": null
+    },
+    {
+      "id": "1e3ade81-ee60-49bf-9557-f558493de81a",
+      "category": "enemigos",
+      "name": "ARBUSTO DESPERTADO",
+      "description": "Un arbusto despertado es un arbusto normal que ha sido dotado de consciencia y la capacidad de desplazarse mediante el conjuro despertar o alguna magia de similar naturaleza.",
+      "image": null
+    },
+    {
+      "id": "c9b40666-5754-449e-ae51-91d6379130aa",
+      "category": "enemigos",
+      "name": "SAPO GIGANTE",
+      "description": "Sapo de dimensiones enormes que suele habitar en ciénagas, son muy territoriales y tienen una saliva corrosiva.",
+      "image": null
+    },
+    {
+      "id": "19d569ef-3a16-4fcb-9beb-e4414602411b",
+      "category": "enemigos",
+      "name": "DIABLILLO",
+      "description": "Este pequeño ser dotado de minúsculas alas y cola de escorpión tiene un rostro irónico, al menos cuando no permanece invisible o toma la forma de alguna alimaña inmunda, como una rata, un cuervo o una araña.",
+      "image": null
+    },
+    {
+      "id": "56483811-d98e-4ffa-9f8a-757975e405bb",
+      "category": "enemigos",
+      "name": "GARGOLA",
+      "description": "Rocosas aberraciones aladas, famosas tanto por su aspecto monstruoso como por su maldad. Es frecuente encontrarlas al servicio de las fuerzas del mal, pues gracias a su mimetismo natural y brutales garras son grandes guardianes.",
+      "image": null
+    },
+    {
+      "id": "b982c102-0135-4074-b4f0-54877698c798",
+      "category": "personajes",
+      "name": "Babolax",
+      "nameColor": "#0c640f",
+      "description": "Un goblin muy salado con aurilla",
+      "image": "imagenes/b982c102-0135-4074-b4f0-54877698c798.jpg",
+      "rpg": {
+        "race": "Goblin",
+        "characterClass": "Pícaro - Embaucador Arcano",
+        "level": 3,
+        "background": "X",
+        "alignment": "Caótico - Neutral",
+        "armor": 14,
+        "initiative": 2,
+        "speed": 30,
+        "languages": "Común, Goblin, Élfico",
+        "equipment": "Daga de la Ponzoña\nCadenas",
+        "inventory": "Frascos de Veneno",
+        "spells": "Orbe Cromático",
+        "stats": {
+          "strength": 12,
+          "dexterity": 12,
+          "constitution": 12,
+          "intelligence": 12,
+          "wisdom": 12,
+          "charisma": 12
+        },
+        "saves": {
+          "strength": 12,
+          "dexterity": 12,
+          "constitution": 12,
+          "intelligence": 12,
+          "wisdom": 12,
+          "charisma": 12
+        },
+        "gold": 25,
+        "platinum": 3
+      },
+      "notes": [
+        {
+          "id": "9279c600-f675-43e5-b401-8efc5490faa8",
+          "title": "Pasado",
+          "text": "Parece que hay algo oculto..."
+        }
+      ]
+    },
+    {
+      "id": "8c6d3ac8-0299-44da-b4d6-67b00a5e0773",
+      "category": "personajes",
+      "name": "Sirkoss Garratiesa",
+      "nameColor": "#d4810c",
+      "description": "Un gatillo con armas muy majo",
+      "image": "imagenes/8c6d3ac8-0299-44da-b4d6-67b00a5e0773.jpg",
+      "rpg": {
+        "race": "Tabaxi",
+        "characterClass": "Artificiero - Tirador",
+        "level": 3,
+        "background": "X",
+        "alignment": "Neutral - Bueno",
+        "armor": 15,
+        "initiative": 2,
+        "speed": 35,
+        "languages": "Común, Tabaxi, Élfico, Rúnico",
+        "equipment": "Pistola",
+        "inventory": "X",
+        "spells": "X",
+        "stats": {
+          "strength": 12,
+          "dexterity": 12,
+          "constitution": 12,
+          "intelligence": 12,
+          "wisdom": 12,
+          "charisma": 12
+        },
+        "saves": {
+          "strength": 12,
+          "dexterity": 12,
+          "constitution": 12,
+          "intelligence": 12,
+          "wisdom": 12,
+          "charisma": 12
+        },
+        "gold": 100,
+        "platinum": 100
+      },
+      "notes": []
+    },
+    {
+      "id": "71ad54d3-750a-4000-a1a7-0f4e6c39f12a",
+      "category": "personajes",
+      "name": "Lirilita",
+      "nameColor": "#ea2e2e",
+      "description": "Un hada así muy mona y muy amigable",
+      "image": "imagenes/71ad54d3-750a-4000-a1a7-0f4e6c39f12a.jpg",
+      "rpg": {
+        "race": "Hada",
+        "characterClass": "Druida",
+        "level": 3,
+        "background": "x",
+        "alignment": "Legal - Bueno",
+        "armor": "",
+        "initiative": "",
+        "speed": "",
+        "languages": "",
+        "equipment": "",
+        "inventory": "",
+        "spells": "",
+        "stats": {
+          "strength": 12,
+          "dexterity": 12,
+          "constitution": 12,
+          "intelligence": 12,
+          "wisdom": 12,
+          "charisma": 12
+        },
+        "saves": {
+          "strength": 12,
+          "dexterity": 12,
+          "constitution": 12,
+          "intelligence": 12,
+          "wisdom": 12,
+          "charisma": 12
+        },
+        "gold": "",
+        "platinum": ""
+      },
+      "notes": []
+    },
+    {
+      "id": "adfd376d-2586-41e4-b016-ed5de1cbb795",
+      "category": "personajes",
+      "name": "Bríaco",
+      "nameColor": "#924a07",
+      "description": "Un sátiro así muy fiestero y bromista",
+      "image": "imagenes/adfd376d-2586-41e4-b016-ed5de1cbb795.jpg",
+      "rpg": {
+        "race": "Sátiro",
+        "characterClass": "Bardo",
+        "level": 3,
+        "background": "x",
+        "alignment": "Normal - Neutro",
+        "armor": "",
+        "initiative": "",
+        "speed": "",
+        "languages": "",
+        "equipment": "",
+        "inventory": "",
+        "spells": "",
+        "stats": {
+          "strength": 12,
+          "dexterity": 12,
+          "constitution": 12,
+          "intelligence": 12,
+          "wisdom": 12,
+          "charisma": 12
+        },
+        "saves": {
+          "strength": 12,
+          "dexterity": 12,
+          "constitution": 12,
+          "intelligence": 12,
+          "wisdom": 12,
+          "charisma": 12
+        },
+        "gold": "",
+        "platinum": ""
+      },
+      "notes": []
+    },
+    {
+      "id": "296c0eb8-1674-40f3-8e95-5057f0ee281d",
+      "category": "personajes",
+      "name": "Lihue Skybound",
+      "nameColor": "#209cd9",
+      "description": "Un genasi de aire así muy honorable y apuesto",
+      "image": "imagenes/296c0eb8-1674-40f3-8e95-5057f0ee281d.jpg",
+      "rpg": {
+        "race": "Genasi de Aire",
+        "characterClass": "Paladín",
+        "level": 3,
+        "background": "X",
+        "alignment": "Legal - Bueno",
+        "armor": "",
+        "initiative": "",
+        "speed": "",
+        "languages": "",
+        "equipment": "",
+        "inventory": "",
+        "spells": "",
+        "stats": {
+          "strength": 12,
+          "dexterity": 12,
+          "constitution": 12,
+          "intelligence": 12,
+          "wisdom": 12,
+          "charisma": 12
+        },
+        "saves": {
+          "strength": 12,
+          "dexterity": 12,
+          "constitution": 12,
+          "intelligence": 12,
+          "wisdom": 12,
+          "charisma": 12
+        },
+        "gold": "",
+        "platinum": ""
+      },
+      "notes": []
+    },
+    {
+      "id": "9335a82c-df1a-4908-b8ae-a3dfff569d00",
+      "category": "personajes",
+      "name": "Elysia",
+      "nameColor": "#992ba1",
+      "description": "Una elfa así un poco despistadilla",
+      "image": "imagenes/9335a82c-df1a-4908-b8ae-a3dfff569d00.jpg",
+      "rpg": {
+        "race": "Elfa",
+        "characterClass": "Brujo",
+        "level": 3,
+        "background": "X",
+        "alignment": "Bueno - Neutral",
+        "armor": "",
+        "initiative": "",
+        "speed": "",
+        "languages": "",
+        "equipment": "",
+        "inventory": "",
+        "spells": "",
+        "stats": {
+          "strength": 12,
+          "dexterity": 12,
+          "constitution": 12,
+          "intelligence": 12,
+          "wisdom": 12,
+          "charisma": 12
+        },
+        "saves": {
+          "strength": 12,
+          "dexterity": 12,
+          "constitution": 12,
+          "intelligence": 12,
+          "wisdom": 12,
+          "charisma": 12
+        },
+        "gold": "",
+        "platinum": ""
+      },
+      "notes": []
+    },
+    {
+      "id": "34e3a439-e724-46ae-ad86-d7d552dd0ac1",
+      "category": "personajes",
+      "name": "Asgeir",
+      "nameColor": "#ffffff",
+      "description": "Una goliat un poco impulsiva y con gustos raros",
+      "image": "imagenes/34e3a439-e724-46ae-ad86-d7d552dd0ac1.jpg",
+      "rpg": {
+        "race": "Goliat",
+        "characterClass": "Bárbaro",
+        "level": 3,
+        "background": "X",
+        "alignment": "Bueno - Neutral",
+        "armor": "",
+        "initiative": "",
+        "speed": "",
+        "languages": "",
+        "equipment": "",
+        "inventory": "",
+        "spells": "",
+        "stats": {
+          "strength": 12,
+          "dexterity": 12,
+          "constitution": 12,
+          "intelligence": 12,
+          "wisdom": 12,
+          "charisma": 12
+        },
+        "saves": {
+          "strength": 12,
+          "dexterity": 12,
+          "constitution": 12,
+          "intelligence": 12,
+          "wisdom": 12,
+          "charisma": 12
+        },
+        "gold": "",
+        "platinum": ""
+      },
+      "notes": []
+    },
+    {
+      "id": "94da93d0-ff53-46b6-a6ee-387c1080ecd7",
+      "category": "personajes",
+      "name": "Aurelion Caparazón",
+      "nameColor": "#52ca02",
+      "description": "Una tortuga así muy añorada y querida por sus amigos",
+      "image": "imagenes/94da93d0-ff53-46b6-a6ee-387c1080ecd7.jpg",
+      "rpg": {
+        "race": "Tortoga",
+        "characterClass": "Clérigo",
+        "level": 2,
+        "background": "X",
+        "alignment": "Bueno - Legal",
+        "armor": "",
+        "initiative": "",
+        "speed": "",
+        "languages": "",
+        "equipment": "",
+        "inventory": "",
+        "spells": "",
+        "stats": {
+          "strength": 12,
+          "dexterity": 12,
+          "constitution": 12,
+          "intelligence": 12,
+          "wisdom": 12,
+          "charisma": 12
+        },
+        "saves": {
+          "strength": 12,
+          "dexterity": 12,
+          "constitution": 12,
+          "intelligence": 12,
+          "wisdom": 12,
+          "charisma": 12
+        },
+        "gold": "",
+        "platinum": ""
+      },
+      "notes": []
+    }
+  ],
+  "tierLists": [],
+  "sectionOrder": [
+    "personajes",
+    "npcs",
+    "enemigos",
+    "localizaciones",
+    "eventos",
+    "delicias",
+    "minijuegos"
+  ],
+  "characterOrder": [
+    "b982c102-0135-4074-b4f0-54877698c798",
+    "8c6d3ac8-0299-44da-b4d6-67b00a5e0773",
+    "71ad54d3-750a-4000-a1a7-0f4e6c39f12a",
+    "adfd376d-2586-41e4-b016-ed5de1cbb795",
+    "296c0eb8-1674-40f3-8e95-5057f0ee281d",
+    "9335a82c-df1a-4908-b8ae-a3dfff569d00",
+    "34e3a439-e724-46ae-ad86-d7d552dd0ac1",
+    "94da93d0-ff53-46b6-a6ee-387c1080ecd7"
+  ],
+  "towerRun": null
+}
