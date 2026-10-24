@@ -446,6 +446,94 @@
         }
       },
       "notes": []
+    },
+    {
+      "id": "f39ab99f-72a6-4b75-bcac-6a108697604e",
+      "category": "npcs",
+      "name": "Lortenia",
+      "nameColor": "#f0dfbd",
+      "description": "",
+      "image": "imagenes/f39ab99f-72a6-4b75-bcac-6a108697604e.jpg"
+    },
+    {
+      "id": "27379946-7919-4040-bdb9-b38c2963963e",
+      "category": "npcs",
+      "name": "Cylor",
+      "nameColor": "#f0dfbd",
+      "description": "",
+      "image": "imagenes/27379946-7919-4040-bdb9-b38c2963963e.jpg"
+    },
+    {
+      "id": "4c858934-9502-4d7b-8bb9-62c306c2d837",
+      "category": "npcs",
+      "name": "Turekinpin",
+      "nameColor": "#f0dfbd",
+      "description": "",
+      "image": "imagenes/4c858934-9502-4d7b-8bb9-62c306c2d837.jpg"
+    },
+    {
+      "id": "047ad0a9-27eb-40df-857a-85ffdb98ac42",
+      "category": "npcs",
+      "name": "Jester, Dueño del Circo de las Mil Noches",
+      "nameColor": "#f0dfbd",
+      "description": "",
+      "image": "imagenes/047ad0a9-27eb-40df-857a-85ffdb98ac42.jpg"
+    },
+    {
+      "id": "bc802f7e-fda9-409f-8798-9cc04a2adf7d",
+      "category": "npcs",
+      "name": "Hydrus Candis",
+      "nameColor": "#f0dfbd",
+      "description": "",
+      "image": "imagenes/bc802f7e-fda9-409f-8798-9cc04a2adf7d.jpg"
+    },
+    {
+      "id": "16934c41-c6d4-4df5-92c0-a54790f5799a",
+      "category": "npcs",
+      "name": "Campeón de Hydrus Candis",
+      "nameColor": "#f0dfbd",
+      "description": "",
+      "image": "imagenes/16934c41-c6d4-4df5-92c0-a54790f5799a.jpg"
+    },
+    {
+      "id": "84d2dd63-fd4e-41f1-bb78-50f4356bd801",
+      "category": "npcs",
+      "name": "Londyr",
+      "nameColor": "#f0dfbd",
+      "description": "Rey de Bahamor",
+      "image": "imagenes/84d2dd63-fd4e-41f1-bb78-50f4356bd801.jpg"
+    },
+    {
+      "id": "d6983d54-fed8-4762-b73a-ea003b074cb2",
+      "category": "npcs",
+      "name": "Campeón de Londyr",
+      "nameColor": "#f0dfbd",
+      "description": "",
+      "image": "imagenes/d6983d54-fed8-4762-b73a-ea003b074cb2.jpg"
+    },
+    {
+      "id": "281aa6ba-b769-456e-accf-d8936b466091",
+      "category": "npcs",
+      "name": "Kristas",
+      "nameColor": "#f0dfbd",
+      "description": "Carcelero en el Coliseo",
+      "image": "imagenes/281aa6ba-b769-456e-accf-d8936b466091.jpg"
+    },
+    {
+      "id": "04c3a477-367f-4ee8-9fb1-fb9c293e63dc",
+      "category": "npcs",
+      "name": "Sintrilatem Patus Velocitus",
+      "nameColor": "#f0dfbd",
+      "description": "Guerrero Liebren",
+      "image": "imagenes/04c3a477-367f-4ee8-9fb1-fb9c293e63dc.jpg"
+    },
+    {
+      "id": "88026416-f7b9-46a8-8dff-ec034c782289",
+      "category": "npcs",
+      "name": "Nobus Avirum",
+      "nameColor": "#f0dfbd",
+      "description": "Gran Mago del Reino de Bahamor",
+      "image": "imagenes/88026416-f7b9-46a8-8dff-ec034c782289.jpg"
     }
   ],
   "tierLists": [],
