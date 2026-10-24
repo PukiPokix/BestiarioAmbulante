@@ -170,16 +170,18 @@
       "rpg": {
         "race": "Tabaxi",
         "characterClass": "Artificiero - Tirador",
-        "level": 3,
         "background": "X",
         "alignment": "Neutral - Bueno",
-        "armor": 15,
-        "initiative": 2,
-        "speed": 35,
         "languages": "Común, Tabaxi, Élfico, Rúnico",
         "equipment": "Pistola",
         "inventory": "X",
         "spells": "X",
+        "level": 3,
+        "armor": 15,
+        "initiative": 2,
+        "speed": 35,
+        "gold": 100,
+        "platinum": 100,
         "stats": {
           "strength": 12,
           "dexterity": 12,
@@ -195,9 +197,7 @@
           "intelligence": 12,
           "wisdom": 12,
           "charisma": 12
-        },
-        "gold": 100,
-        "platinum": 100
+        }
       },
       "notes": []
     },
@@ -453,9 +453,9 @@
     "personajes",
     "npcs",
     "enemigos",
-    "localizaciones",
-    "eventos",
     "delicias",
+    "eventos",
+    "localizaciones",
     "minijuegos",
     "cronicas"
   ],
