@@ -451,8 +451,8 @@
       "id": "f39ab99f-72a6-4b75-bcac-6a108697604e",
       "category": "npcs",
       "name": "Lortenia",
-      "nameColor": "#f0dfbd",
-      "description": "",
+      "nameColor": "#ffffff",
+      "description": "Líder de los Tres Cascabeles",
       "image": "imagenes/f39ab99f-72a6-4b75-bcac-6a108697604e.jpg"
     },
     {
@@ -460,7 +460,7 @@
       "category": "npcs",
       "name": "Cylor",
       "nameColor": "#f0dfbd",
-      "description": "",
+      "description": "Uno de los Tres Cascabeles",
       "image": "imagenes/27379946-7919-4040-bdb9-b38c2963963e.jpg"
     },
     {
@@ -468,7 +468,7 @@
       "category": "npcs",
       "name": "Turekinpin",
       "nameColor": "#f0dfbd",
-      "description": "",
+      "description": "Uno de los Tres Cascabeles, le gusta hacer ciertos negocios ilicitos",
       "image": "imagenes/4c858934-9502-4d7b-8bb9-62c306c2d837.jpg"
     },
     {
@@ -476,7 +476,7 @@
       "category": "npcs",
       "name": "Jester, Dueño del Circo de las Mil Noches",
       "nameColor": "#f0dfbd",
-      "description": "",
+      "description": "Acompañante del Rey de Wydoria",
       "image": "imagenes/047ad0a9-27eb-40df-857a-85ffdb98ac42.jpg"
     },
     {
@@ -484,7 +484,7 @@
       "category": "npcs",
       "name": "Hydrus Candis",
       "nameColor": "#f0dfbd",
-      "description": "",
+      "description": "Rey de Wydoria y hermano de Londyr",
       "image": "imagenes/bc802f7e-fda9-409f-8798-9cc04a2adf7d.jpg"
     },
     {
@@ -492,7 +492,7 @@
       "category": "npcs",
       "name": "Campeón de Hydrus Candis",
       "nameColor": "#f0dfbd",
-      "description": "",
+      "description": "Campeón del Rey de Wydoria",
       "image": "imagenes/16934c41-c6d4-4df5-92c0-a54790f5799a.jpg"
     },
     {
@@ -508,7 +508,7 @@
       "category": "npcs",
       "name": "Campeón de Londyr",
       "nameColor": "#f0dfbd",
-      "description": "",
+      "description": "Campeón del Rey de Bahamor",
       "image": "imagenes/d6983d54-fed8-4762-b73a-ea003b074cb2.jpg"
     },
     {
